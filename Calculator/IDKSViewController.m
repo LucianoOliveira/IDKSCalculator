@@ -45,12 +45,14 @@
     
     NSNumber* numberInScreen = [NSNumber numberWithInteger:[self.result.text integerValue]];
     
+    if ([_calculator.context.eStack count]==0) {
+        [_calculator.context.eStack push:@0];
+    }
+    
     if ([numberInScreen intValue] <= 99999999) {
         //tags 0 to 9 are numbers
         if (sender.tag>=0 && sender.tag<=9) {
-            if ([_calculator.context.eStack count]==0) {
-                [_calculator.context.eStack push:@0];
-            }
+            
             value = [NSNumber numberWithInteger:sender.tag];
             [_calculator.context.eStack push:@10];
             midResult = [_calculator multiply];
@@ -95,7 +97,7 @@
             _pendingOperation = [NSNumber numberWithInteger:sender.tag];
             [_calculator.context.eStack push:@0];
         }
-        [sender setBackgroundColor:[UIColor redColor]];
+        //[sender setBackgroundColor:[UIColor redColor]];
         
         
     }
