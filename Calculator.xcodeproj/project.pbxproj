@@ -21,6 +21,37 @@
 		1C8BA7CD182821BC00449805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8BA7AF182821BC00449805 /* UIKit.framework */; };
 		1C8BA7D5182821BC00449805 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C8BA7D3182821BC00449805 /* InfoPlist.strings */; };
 		1C8BA7D7182821BC00449805 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7D6182821BC00449805 /* CalculatorTests.m */; };
+		1C8BA7E31828225000449805 /* IDKSCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7E21828225000449805 /* IDKSCalculator.m */; };
+		1C8BA7E41828225000449805 /* IDKSCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7E21828225000449805 /* IDKSCalculator.m */; };
+		1C8BA7E8182822B000449805 /* IDKSExecutionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7E7182822B000449805 /* IDKSExecutionContext.m */; };
+		1C8BA7E9182822B000449805 /* IDKSExecutionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7E7182822B000449805 /* IDKSExecutionContext.m */; };
+		1C8BA7EC1828230100449805 /* IDKSEvaluationStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7EB1828230100449805 /* IDKSEvaluationStack.m */; };
+		1C8BA7ED1828230100449805 /* IDKSEvaluationStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7EB1828230100449805 /* IDKSEvaluationStack.m */; };
+		1C8BA7F01828233800449805 /* IDKSLocalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7EF1828233800449805 /* IDKSLocalVars.m */; };
+		1C8BA7F11828233800449805 /* IDKSLocalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7EF1828233800449805 /* IDKSLocalVars.m */; };
+		1C8BA7F51828240B00449805 /* IDKSInstructionLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7F41828240B00449805 /* IDKSInstructionLoad.m */; };
+		1C8BA7F61828240B00449805 /* IDKSInstructionLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7F41828240B00449805 /* IDKSInstructionLoad.m */; };
+		1C8BA7FA182824C300449805 /* IDKSInstructionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7F9182824C300449805 /* IDKSInstructionStore.m */; };
+		1C8BA7FB182824C300449805 /* IDKSInstructionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7F9182824C300449805 /* IDKSInstructionStore.m */; };
+		1C8BA7FF1828258300449805 /* IDKSUnaryInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7FE1828258300449805 /* IDKSUnaryInstruction.m */; };
+		1C8BA8001828258300449805 /* IDKSUnaryInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA7FE1828258300449805 /* IDKSUnaryInstruction.m */; };
+		1C8BA8031828272700449805 /* IDKSInstructionFactorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA8021828272700449805 /* IDKSInstructionFactorial.m */; };
+		1C8BA8041828272700449805 /* IDKSInstructionFactorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA8021828272700449805 /* IDKSInstructionFactorial.m */; };
+		1C8BA8071828283600449805 /* IDKSInstructionNegation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA8061828283600449805 /* IDKSInstructionNegation.m */; };
+		1C8BA8081828283600449805 /* IDKSInstructionNegation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA8061828283600449805 /* IDKSInstructionNegation.m */; };
+		1C8BA80B1828286C00449805 /* IDKSInstructionDup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA80A1828286C00449805 /* IDKSInstructionDup.m */; };
+		1C8BA80C1828286C00449805 /* IDKSInstructionDup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA80A1828286C00449805 /* IDKSInstructionDup.m */; };
+		1C8BA810182828CB00449805 /* IDKSBinaryInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA80F182828CB00449805 /* IDKSBinaryInstruction.m */; };
+		1C8BA811182828CB00449805 /* IDKSBinaryInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA80F182828CB00449805 /* IDKSBinaryInstruction.m */; };
+		1C8BA81418282B8400449805 /* IDKSInstructionAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA81318282B8400449805 /* IDKSInstructionAdd.m */; };
+		1C8BA81518282B8400449805 /* IDKSInstructionAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA81318282B8400449805 /* IDKSInstructionAdd.m */; };
+		1C8BA81918282BD200449805 /* IDKSInstructionMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA81818282BD200449805 /* IDKSInstructionMultiply.m */; };
+		1C8BA81A18282BD200449805 /* IDKSInstructionMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA81818282BD200449805 /* IDKSInstructionMultiply.m */; };
+		1C8BA81D18282BFF00449805 /* IDKSInstructionDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA81C18282BFF00449805 /* IDKSInstructionDivide.m */; };
+		1C8BA81E18282BFF00449805 /* IDKSInstructionDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA81C18282BFF00449805 /* IDKSInstructionDivide.m */; };
+		1C8BA82118282C3600449805 /* IDKSIntructionSubtract.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA82018282C3600449805 /* IDKSIntructionSubtract.m */; };
+		1C8BA82218282C3600449805 /* IDKSIntructionSubtract.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA82018282C3600449805 /* IDKSIntructionSubtract.m */; };
+		1C8BA82718282E8000449805 /* IDKSInstructionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BA82618282E8000449805 /* IDKSInstructionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +84,38 @@
 		1C8BA7D2182821BC00449805 /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		1C8BA7D4182821BC00449805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C8BA7D6182821BC00449805 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		1C8BA7E11828225000449805 /* IDKSCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSCalculator.h; sourceTree = "<group>"; };
+		1C8BA7E21828225000449805 /* IDKSCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSCalculator.m; sourceTree = "<group>"; };
+		1C8BA7E6182822B000449805 /* IDKSExecutionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSExecutionContext.h; sourceTree = "<group>"; };
+		1C8BA7E7182822B000449805 /* IDKSExecutionContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSExecutionContext.m; sourceTree = "<group>"; };
+		1C8BA7EA1828230100449805 /* IDKSEvaluationStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSEvaluationStack.h; sourceTree = "<group>"; };
+		1C8BA7EB1828230100449805 /* IDKSEvaluationStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSEvaluationStack.m; sourceTree = "<group>"; };
+		1C8BA7EE1828233800449805 /* IDKSLocalVars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSLocalVars.h; sourceTree = "<group>"; };
+		1C8BA7EF1828233800449805 /* IDKSLocalVars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSLocalVars.m; sourceTree = "<group>"; };
+		1C8BA7F31828240B00449805 /* IDKSInstructionLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSInstructionLoad.h; sourceTree = "<group>"; };
+		1C8BA7F41828240B00449805 /* IDKSInstructionLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSInstructionLoad.m; sourceTree = "<group>"; };
+		1C8BA7F71828249300449805 /* IDKSInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSInstruction.h; sourceTree = "<group>"; };
+		1C8BA7F8182824C300449805 /* IDKSInstructionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSInstructionStore.h; sourceTree = "<group>"; };
+		1C8BA7F9182824C300449805 /* IDKSInstructionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSInstructionStore.m; sourceTree = "<group>"; };
+		1C8BA7FD1828258300449805 /* IDKSUnaryInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSUnaryInstruction.h; sourceTree = "<group>"; };
+		1C8BA7FE1828258300449805 /* IDKSUnaryInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSUnaryInstruction.m; sourceTree = "<group>"; };
+		1C8BA8011828272700449805 /* IDKSInstructionFactorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSInstructionFactorial.h; sourceTree = "<group>"; };
+		1C8BA8021828272700449805 /* IDKSInstructionFactorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSInstructionFactorial.m; sourceTree = "<group>"; };
+		1C8BA8051828283600449805 /* IDKSInstructionNegation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSInstructionNegation.h; sourceTree = "<group>"; };
+		1C8BA8061828283600449805 /* IDKSInstructionNegation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSInstructionNegation.m; sourceTree = "<group>"; };
+		1C8BA8091828286C00449805 /* IDKSInstructionDup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSInstructionDup.h; sourceTree = "<group>"; };
+		1C8BA80A1828286C00449805 /* IDKSInstructionDup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSInstructionDup.m; sourceTree = "<group>"; };
+		1C8BA80E182828CB00449805 /* IDKSBinaryInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSBinaryInstruction.h; sourceTree = "<group>"; };
+		1C8BA80F182828CB00449805 /* IDKSBinaryInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSBinaryInstruction.m; sourceTree = "<group>"; };
+		1C8BA81218282B8400449805 /* IDKSInstructionAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSInstructionAdd.h; sourceTree = "<group>"; };
+		1C8BA81318282B8400449805 /* IDKSInstructionAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSInstructionAdd.m; sourceTree = "<group>"; };
+		1C8BA81718282BD200449805 /* IDKSInstructionMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSInstructionMultiply.h; sourceTree = "<group>"; };
+		1C8BA81818282BD200449805 /* IDKSInstructionMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSInstructionMultiply.m; sourceTree = "<group>"; };
+		1C8BA81B18282BFF00449805 /* IDKSInstructionDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSInstructionDivide.h; sourceTree = "<group>"; };
+		1C8BA81C18282BFF00449805 /* IDKSInstructionDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSInstructionDivide.m; sourceTree = "<group>"; };
+		1C8BA81F18282C3600449805 /* IDKSIntructionSubtract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDKSIntructionSubtract.h; sourceTree = "<group>"; };
+		1C8BA82018282C3600449805 /* IDKSIntructionSubtract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSIntructionSubtract.m; sourceTree = "<group>"; };
+		1C8BA82618282E8000449805 /* IDKSInstructionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDKSInstructionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +145,7 @@
 		1C8BA79F182821BC00449805 = {
 			isa = PBXGroup;
 			children = (
+				1C8BA7E01828221400449805 /* Model */,
 				1C8BA7B1182821BC00449805 /* Calculator */,
 				1C8BA7D0182821BC00449805 /* CalculatorTests */,
 				1C8BA7AA182821BC00449805 /* Frameworks */,
@@ -137,6 +201,7 @@
 		1C8BA7D0182821BC00449805 /* CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				1C8BA82618282E8000449805 /* IDKSInstructionTests.m */,
 				1C8BA7D6182821BC00449805 /* CalculatorTests.m */,
 				1C8BA7D1182821BC00449805 /* Supporting Files */,
 			);
@@ -150,6 +215,76 @@
 				1C8BA7D3182821BC00449805 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C8BA7E01828221400449805 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C8BA7E11828225000449805 /* IDKSCalculator.h */,
+				1C8BA7E21828225000449805 /* IDKSCalculator.m */,
+				1C8BA7F2182823DE00449805 /* Instructions */,
+				1C8BA7E51828229900449805 /* Stack */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1C8BA7E51828229900449805 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				1C8BA7E6182822B000449805 /* IDKSExecutionContext.h */,
+				1C8BA7E7182822B000449805 /* IDKSExecutionContext.m */,
+				1C8BA7EA1828230100449805 /* IDKSEvaluationStack.h */,
+				1C8BA7EB1828230100449805 /* IDKSEvaluationStack.m */,
+				1C8BA7EE1828233800449805 /* IDKSLocalVars.h */,
+				1C8BA7EF1828233800449805 /* IDKSLocalVars.m */,
+			);
+			name = Stack;
+			sourceTree = "<group>";
+		};
+		1C8BA7F2182823DE00449805 /* Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				1C8BA7F31828240B00449805 /* IDKSInstructionLoad.h */,
+				1C8BA7F41828240B00449805 /* IDKSInstructionLoad.m */,
+				1C8BA7F71828249300449805 /* IDKSInstruction.h */,
+				1C8BA7F8182824C300449805 /* IDKSInstructionStore.h */,
+				1C8BA7F9182824C300449805 /* IDKSInstructionStore.m */,
+				1C8BA7FC1828255300449805 /* Unary Instructions */,
+				1C8BA80D1828289600449805 /* Binary Instructions */,
+			);
+			name = Instructions;
+			sourceTree = "<group>";
+		};
+		1C8BA7FC1828255300449805 /* Unary Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				1C8BA7FD1828258300449805 /* IDKSUnaryInstruction.h */,
+				1C8BA7FE1828258300449805 /* IDKSUnaryInstruction.m */,
+				1C8BA8011828272700449805 /* IDKSInstructionFactorial.h */,
+				1C8BA8021828272700449805 /* IDKSInstructionFactorial.m */,
+				1C8BA8051828283600449805 /* IDKSInstructionNegation.h */,
+				1C8BA8061828283600449805 /* IDKSInstructionNegation.m */,
+				1C8BA8091828286C00449805 /* IDKSInstructionDup.h */,
+				1C8BA80A1828286C00449805 /* IDKSInstructionDup.m */,
+			);
+			name = "Unary Instructions";
+			sourceTree = "<group>";
+		};
+		1C8BA80D1828289600449805 /* Binary Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				1C8BA80E182828CB00449805 /* IDKSBinaryInstruction.h */,
+				1C8BA80F182828CB00449805 /* IDKSBinaryInstruction.m */,
+				1C8BA81218282B8400449805 /* IDKSInstructionAdd.h */,
+				1C8BA81318282B8400449805 /* IDKSInstructionAdd.m */,
+				1C8BA81718282BD200449805 /* IDKSInstructionMultiply.h */,
+				1C8BA81818282BD200449805 /* IDKSInstructionMultiply.m */,
+				1C8BA81B18282BFF00449805 /* IDKSInstructionDivide.h */,
+				1C8BA81C18282BFF00449805 /* IDKSInstructionDivide.m */,
+				1C8BA81F18282C3600449805 /* IDKSIntructionSubtract.h */,
+				1C8BA82018282C3600449805 /* IDKSIntructionSubtract.m */,
+			);
+			name = "Binary Instructions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +385,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8BA7E8182822B000449805 /* IDKSExecutionContext.m in Sources */,
+				1C8BA81918282BD200449805 /* IDKSInstructionMultiply.m in Sources */,
+				1C8BA7FF1828258300449805 /* IDKSUnaryInstruction.m in Sources */,
+				1C8BA81D18282BFF00449805 /* IDKSInstructionDivide.m in Sources */,
+				1C8BA810182828CB00449805 /* IDKSBinaryInstruction.m in Sources */,
+				1C8BA82118282C3600449805 /* IDKSIntructionSubtract.m in Sources */,
+				1C8BA7E31828225000449805 /* IDKSCalculator.m in Sources */,
+				1C8BA7FA182824C300449805 /* IDKSInstructionStore.m in Sources */,
+				1C8BA81418282B8400449805 /* IDKSInstructionAdd.m in Sources */,
 				1C8BA7B8182821BC00449805 /* main.m in Sources */,
+				1C8BA7EC1828230100449805 /* IDKSEvaluationStack.m in Sources */,
+				1C8BA8071828283600449805 /* IDKSInstructionNegation.m in Sources */,
+				1C8BA80B1828286C00449805 /* IDKSInstructionDup.m in Sources */,
+				1C8BA7F01828233800449805 /* IDKSLocalVars.m in Sources */,
+				1C8BA7F51828240B00449805 /* IDKSInstructionLoad.m in Sources */,
 				1C8BA7C2182821BC00449805 /* IDKSViewController.m in Sources */,
+				1C8BA8031828272700449805 /* IDKSInstructionFactorial.m in Sources */,
 				1C8BA7BC182821BC00449805 /* IDKSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +410,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8BA7E41828225000449805 /* IDKSCalculator.m in Sources */,
+				1C8BA7FB182824C300449805 /* IDKSInstructionStore.m in Sources */,
+				1C8BA80C1828286C00449805 /* IDKSInstructionDup.m in Sources */,
+				1C8BA7ED1828230100449805 /* IDKSEvaluationStack.m in Sources */,
+				1C8BA8041828272700449805 /* IDKSInstructionFactorial.m in Sources */,
+				1C8BA82218282C3600449805 /* IDKSIntructionSubtract.m in Sources */,
+				1C8BA81518282B8400449805 /* IDKSInstructionAdd.m in Sources */,
+				1C8BA81E18282BFF00449805 /* IDKSInstructionDivide.m in Sources */,
+				1C8BA7E9182822B000449805 /* IDKSExecutionContext.m in Sources */,
 				1C8BA7D7182821BC00449805 /* CalculatorTests.m in Sources */,
+				1C8BA8081828283600449805 /* IDKSInstructionNegation.m in Sources */,
+				1C8BA82718282E8000449805 /* IDKSInstructionTests.m in Sources */,
+				1C8BA81A18282BD200449805 /* IDKSInstructionMultiply.m in Sources */,
+				1C8BA811182828CB00449805 /* IDKSBinaryInstruction.m in Sources */,
+				1C8BA8001828258300449805 /* IDKSUnaryInstruction.m in Sources */,
+				1C8BA7F11828233800449805 /* IDKSLocalVars.m in Sources */,
+				1C8BA7F61828240B00449805 /* IDKSInstructionLoad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
