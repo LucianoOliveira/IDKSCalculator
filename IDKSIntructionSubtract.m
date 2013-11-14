@@ -18,7 +18,7 @@
 
 -(NSString*)description
 {
-    NSString* str = @"subtract";
+    NSString* str = @"-";
     //[str autorelease];
     return str;
 }

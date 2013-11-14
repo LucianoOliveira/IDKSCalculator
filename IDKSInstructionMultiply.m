@@ -18,7 +18,7 @@
 
 -(NSString*)description
 {
-    NSString* str = @"multiply";
+    NSString* str = @"X";
     //[str autorelease];
     return str;
 }

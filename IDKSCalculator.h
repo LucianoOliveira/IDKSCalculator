@@ -14,13 +14,9 @@
 
 @property (nonatomic, readonly) IDKSExecutionContext* context;
 
--(NSNumber*) add;
--(NSNumber*) subtract;
--(NSNumber*) multiply;
--(NSNumber*) divide;
--(NSNumber*) factorial;
--(NSNumber*) negation;
--(NSNumber*) dup;
+-(void)pushOperation:(NSString*)descriptor;
+-(NSNumber*)pushOperand:(NSNumber*)operand;
+-(NSNumber*)endSequence;
 
 @end
 

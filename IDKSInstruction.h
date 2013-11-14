@@ -10,7 +10,7 @@
 //#import "IDKSEvaluationStack.h"
 #import "IDKSExecutionContext.h"
 
-@protocol IDKSInstruction
+@protocol IDKSInstruction <NSObject>
 
 -(void) execute:(IDKSExecutionContext*) context;
 

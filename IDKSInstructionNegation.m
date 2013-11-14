@@ -17,7 +17,7 @@
 
 -(NSString*)description
 {
-    NSString* str = @"negation";
+    NSString* str = @"+/-";
     //[str autorelease];
     return str;
 }

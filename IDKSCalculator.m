@@ -21,6 +21,7 @@
 
 
 @property (nonatomic, readonly) NSDictionary* operations;
+@property (nonatomic) NSString* pendingOperation;
 
 @end
 
@@ -44,69 +45,42 @@
 {
     if (!_operations) {
         NSMutableDictionary* ops = [NSMutableDictionary new];
-        ops[@"add"]=[IDKSInstructionAdd new];
-        ops[@"subtract"]=[IDKSIntructionSubtract new];
-        ops[@"multiply"]=[IDKSInstructionMultiply new];
-        ops[@"divide"]=[IDKSInstructionDivide new];
-        ops[@"factorial"]=[IDKSInstructionFactorial new];
-        ops[@"negation"]=[IDKSInstructionNegation new];
-        ops[@"dup"]=[IDKSInstructionDup new];
+        id<IDKSInstruction> inst = nil;
+        ops[[inst description]]= (inst=[IDKSInstructionAdd new]);
+        ops[[inst description]]= (inst=[IDKSIntructionSubtract new]);
+        ops[[inst description]]= (inst=[IDKSInstructionMultiply new]);
+        ops[[inst description]]= (inst=[IDKSInstructionDivide new]);
+        ops[[inst description]]= (inst=[IDKSInstructionNegation new]);
+        
+        //ops[@"factorial"]=[IDKSInstructionFactorial new];
+        //ops[@"dup"]=[IDKSInstructionDup new];
+        
         _operations = ops;
     }
     
     return _operations;
 }
 
--(NSNumber*) add
+
+-(NSNumber*)pushOperand:(NSNumber*)operand
 {
-    //[self.operations objectForKey:@"add"];
-    [self.operations[@"add"] execute:self.context];
+    [self.context.eStack push:operand];
     
+    if (self.pendingOperation) {
+        [self.operations[self.pendingOperation] execute:self.context];
+    }
+    return [self.context.eStack top];
+
+}
+-(void)pushOperation:(NSString*)descriptor
+{
+    self.pendingOperation=descriptor;
+}
+-(NSNumber*)endSequence
+{
+    self.pendingOperation=nil;
     return [self.context.eStack top];
 }
-
--(NSNumber*) subtract
-{
-    [self.operations[@"subtract"] execute:self.context];
-    
-    return [self.context.eStack top];
-}
-
--(NSNumber*) multiply
-{
-    [self.operations[@"multiply"] execute:self.context];
-    
-    return [self.context.eStack top];
-}
-
--(NSNumber*) divide
-{
-    [self.operations[@"divide"] execute:self.context];
-    
-    return [self.context.eStack top];
-}
-
--(NSNumber*) factorial
-{
-    [self.operations[@"factorial"] execute:self.context];
-    
-    return [self.context.eStack top];
-}
-
--(NSNumber*) negation
-{
-    [self.operations[@"negation"] execute:self.context];
-    
-    return [self.context.eStack top];
-}
-
--(NSNumber*) dup
-{
-    [self.operations[@"dup"] execute:self.context];
-    
-    return [self.context.eStack top];
-}
-
 
 @end
 

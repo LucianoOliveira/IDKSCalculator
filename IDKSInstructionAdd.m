@@ -18,7 +18,7 @@
 
 -(NSString*)description
 {
-    NSString* str = @"add";
+    NSString* str = @"+";
     //[str autorelease];
     return str;
 }

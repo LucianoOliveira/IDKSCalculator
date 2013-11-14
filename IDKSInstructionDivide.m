@@ -17,7 +17,7 @@
 
 -(NSString*)description
 {
-    NSString* str = @"divide";
+    NSString* str = @"÷";
     //[str autorelease];
     return str;
 }
